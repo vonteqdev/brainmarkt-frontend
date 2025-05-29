@@ -120,7 +120,7 @@ export const useAuthStore = defineStore('auth', {
 		this.user = null;
 		this.isAuthenticated = false;
 		this.isLoading = false;
-		navigateTo('/auth/login');
+		navigateTo('/auth/login');//
 	  }
 	},
   },
